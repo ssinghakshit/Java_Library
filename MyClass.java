@@ -1,4 +1,3 @@
-//Version -1
 package allInOne;
 import java.util.Scanner;
 
@@ -201,6 +200,23 @@ public class MyClass {
 		}
 		if(isAnagram) System.out.println(m+" "+n+" is Anagram.");
 		else System.out.println(m+" "+n+" is not Anagram.");
+	}
+	
+	//To check string is palindrome or not
+	public void isPalindrom_string(String a) {
+		String b="";
+		boolean isPalindrom= false;
+		int n=a.length();
+		for(int i=n-1; i>=0; i--) {
+			b+=a.charAt(i);
+		}
+		if(a.equalsIgnoreCase(b)) isPalindrom=true;     
+		else isPalindrom=false;
+		
+		
+		if(isPalindrom) System.out.println(a+" is palindrom.");
+		else System.out.println(a+ " is not palindrom.");
+		
 	}
 	
 }
