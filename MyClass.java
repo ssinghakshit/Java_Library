@@ -19,6 +19,15 @@ public class MyClass {
 		return (a>b)?((a>c)?((a>d)?a:d):(c>d)?c:d):(b>c)?((b>d)?b:d):(c>d)?c:d;
 	}
 	
+	//Here I am using vararge...to add numbers
+	public int sum(int ...arr) {
+		int result=0;
+		for(int e:arr) {
+			result+=e;
+		}
+		return result;
+	}
+	
 	//To calculate factorial of given number.
 	final public void Factorial(int a) {
 		
