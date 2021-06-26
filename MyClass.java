@@ -14,6 +14,8 @@ public class MyClass {
 		return (a>b)?((a>c)?a:c):(b>c)?b:c; 
 	}
 	
+	//trying
+	
 	//To print maximum number between 4 numbers.
 	public int MaxOfFourNum(int a, int b, int c, int d) {
 		return (a>b)?((a>c)?((a>d)?a:d):(c>d)?c:d):(b>c)?((b>d)?b:d):(c>d)?c:d;
